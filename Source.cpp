@@ -102,7 +102,9 @@ int main()
 			std::cin >> temp;
 			if (temp == 1)
 			{
-				myvect.at(choose - 1).edit();
+				myvect.at(choose - 1).edit(); 
+
+
 			}
 			if (temp == 2)
 			{
@@ -140,4 +142,7 @@ int main()
 			break;
 		}
 	} while (choose != 0);
+
+
+	return 0;
 }
